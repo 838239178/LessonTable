@@ -1,0 +1,50 @@
+﻿<Window Name="TbWindow" x:Class="LessonTable.View.TableWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LessonTable.View"
+        mc:Ignorable="d"
+        Title="TableWin" Height="678.651" Width="976.943" Initialized="Window_Initialized">
+    <Window.Resources>
+        <Color x:Key="LessonBackColor">#999CC4FF</Color>
+    </Window.Resources>
+    <UniformGrid Name="Form" Rows="6" Columns="6" Margin="0,0,1,1">
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="星期一" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="星期二" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="星期三" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="星期四" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="星期五" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="一二节" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="112" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="212" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="312" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="412" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="512" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="三四节" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="134" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="234" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="334" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="434" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="534" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="五六节" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="156" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="256" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="356" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="456" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="556" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="七八节" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="178" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="278" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="378" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="478" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="578" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="九十节" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="690" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="290" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="390" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="490" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="24,20,0,0" TextWrapping="Wrap" Text="590" VerticalAlignment="Top" Width="70"/>
+    </UniformGrid>
+</Window>
