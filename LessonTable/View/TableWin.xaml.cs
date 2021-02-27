@@ -15,7 +15,6 @@ namespace LessonTable.View
     /// </summary>
     public partial class TableWin : Window
     {
-
         public TableWin()
         {
             InitializeComponent();
@@ -68,7 +67,7 @@ namespace LessonTable.View
             }
             if (noLesson)
             {
-                MessageBox.Show("这周没课！！", "皆大欢喜");
+                MessageBox.Show(Application.Current.MainWindow, "这周没课！！", "皆大欢喜");
                 this.Close();
             }
             else

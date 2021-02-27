@@ -5,16 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LessonTable"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize">
-    <Grid>
-        <Button Content="Summit" HorizontalAlignment="Left" Margin="332,255,0,0" VerticalAlignment="Top" Width="168" Height="41" Click="Button_Click"/>
-        <TextBox Name="DayText" HorizontalAlignment="Left" Height="26" Margin="322,114,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="198" MaxLines="1" />
-        <TextBox Name="TimeText" HorizontalAlignment="Left" Height="28" Margin="321,153,0,0" TextWrapping="Wrap" Text="12" VerticalAlignment="Top" Width="199"/>
-        <Label Content="day" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="277,116,0,0"/>
-        <Label Content="time" HorizontalAlignment="Left" Margin="273,153,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.319,0.121"/>
-        <TextBlock Name="Result" HorizontalAlignment="Left" Margin="331,57,0,0" TextWrapping="Wrap" Text="result show here" VerticalAlignment="Top" Height="47" Width="179"/>
-        <CheckBox Name="SingleCheck" Content="single week" HorizontalAlignment="Left" Margin="328,206,0,0" VerticalAlignment="Top"/>
-        <Button Content="打开本周功课表" HorizontalAlignment="Left" Margin="33,298,0,0" VerticalAlignment="Top" Width="113" Height="48" Click="OpenTableWin"/>
+        Title="MainWindow" Height="450" Width="400" ResizeMode="NoResize" Icon="pack://siteoforigin:,,,/Resources/table.ico">
+    <Grid Margin="0,0,1,0">
+        <Button Content="Summit" HorizontalAlignment="Center" Margin="0,250,0,0" VerticalAlignment="Top" Width="168" Height="41" Click="Button_Click"/>
+        <TextBox Name="DayText" HorizontalAlignment="Center" Height="26" Margin="0,114,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="198" MaxLines="1" Grid.Column="1" />
+        <TextBox Name="TimeText" HorizontalAlignment="Center" Height="26" Margin="0,153,0,0" TextWrapping="Wrap" Text="12" VerticalAlignment="Top" Width="199" Grid.Column="1"/>
+        <Label Content="day" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="37,115,0,0" Height="25" Width="31"/>
+        <Label Content="time" HorizontalAlignment="Left" Margin="37,155,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.319,0.121" Height="25" Width="36"/>
+        <TextBlock Name="Result" HorizontalAlignment="Center" Margin="0,57,0,0" TextWrapping="Wrap" Text="result show here" VerticalAlignment="Top" Height="47" Width="179" Grid.Column="1" TextAlignment="Center" FontWeight="Bold"/>
+        <CheckBox Name="SingleCheck" Content="single week" HorizontalAlignment="Center" Margin="0,206,0,0" VerticalAlignment="Top" Grid.Column="1" Height="15" Width="87"/>
+        <Button Content="打开本周功课表" HorizontalAlignment="Center" Margin="0,323,0,0" VerticalAlignment="Top" Width="168" Height="41" Click="OpenTableWin" Grid.Column="1"/>
 
     </Grid>
 </Window>

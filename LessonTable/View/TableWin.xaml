@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LessonTable.View"
         mc:Ignorable="d"
-        Title="TableWin" Height="678.651" Width="976.943" Initialized="Window_Initialized">
+        Title="TableWin" Height="678.651" Width="976.943" Initialized="Window_Initialized" Icon="pack://siteoforigin:,,,/Resources/table.ico" ShowInTaskbar="False">
     <Window.Resources>
         <Color x:Key="LessonBackColor">#999CC4FF</Color>
     </Window.Resources>
